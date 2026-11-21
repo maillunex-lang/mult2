@@ -1,0 +1,8 @@
+node_modules/
+dist/
+output/segments/
+output/smoke/
+output/render*.log
+frames/
+*.log
+.DS_Store

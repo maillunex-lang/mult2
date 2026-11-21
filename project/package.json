@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Детский мультфильм: робот Бип учит цифры от 1 до 10 (180с, 1920x1080)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "render": "tsx scripts/render/render.ts",
+    "validate": "tsx scripts/validate/validate.ts",
+    "contact-sheet": "tsx scripts/validate/contact-sheet.ts",
+    "all": "tsx scripts/render/render.ts && tsx scripts/validate/validate.ts && tsx scripts/validate/contact-sheet.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  },
+  "type": "module"
+}
